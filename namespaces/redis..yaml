@@ -1,0 +1,11 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: redis
+  namespace: sv-yo
+spec:
+  releaseName: redis
+  chart:
+    repository: https://kubernetes-charts.storage.googleapis.com
+    name: redis
+    version: 9.0.2
