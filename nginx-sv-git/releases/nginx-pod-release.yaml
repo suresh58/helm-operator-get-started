@@ -9,11 +9,11 @@ metadata:
 spec:
   releaseName: podinfo-dev
   chart:
-    git: git@github.com:fluxcd/helm-operator-get-started
-    path: charts/podinfo
+    git: github.com:suresh58/helm-operator-get-started
+    path: sv-nginx
     ref: master
   values:
-    image: stefanprodan/podinfo:dev-hdtwcel9
+    image: nginx
     replicaCount: 1
     hpa:
       enabled: false
