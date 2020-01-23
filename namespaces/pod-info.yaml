@@ -2,7 +2,6 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: kubernetes-downwardapi-volume-example
-  namepsace: sv-yo
   labels:
     zone: us-est-coast
     cluster: test-cluster1
